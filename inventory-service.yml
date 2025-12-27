@@ -1,6 +1,8 @@
 spring:
   kafka:
     bootstrap-servers: localhost:9092
+    admin:
+      enabled: false   # until Kafka is stable
     producer:
       acks: all
       retries: 3
