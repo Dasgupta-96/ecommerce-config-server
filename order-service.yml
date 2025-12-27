@@ -41,6 +41,8 @@ resilience4j:
 spring:
   kafka:
     bootstrap-servers: localhost:9092
+    admin:
+      enabled: false   # until Kafka is stable
     consumer:
       group-id: ${spring.application.name}
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
