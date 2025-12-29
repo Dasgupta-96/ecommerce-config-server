@@ -1,20 +1,15 @@
-#spring:
-#  config:
-#    import: configserver:http://localhost:9090
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
 
-#spring:
-#  kafka:
-#    bootstrap-servers: localhost:9092
-#    producer:
-#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
-#      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
-#
-#kafka:
-#  topic:
-#    product-topic: product-topic
-#    product-details-topic: product-details-topic
-#    sms: sms-notific-topic
+kafka:
+  topic:
+    product-topic: product-topic
+    product-details-topic: product-details-topic
+    sms: sms-notific-topic
 
-env.profile: from-defualt-profile
 
 
