@@ -15,5 +15,6 @@
 #    product-details-topic: product-details-topic
 #    sms: sms-notific-topic
 
+env.profile: from-defualt-profile
 
 
