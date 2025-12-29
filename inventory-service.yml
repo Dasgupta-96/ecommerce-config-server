@@ -1,3 +1,6 @@
+spring:
+  application:
+    name: inventory-service
 #spring:
 #  config:
 #    import: configserver:http://localhost:9090
