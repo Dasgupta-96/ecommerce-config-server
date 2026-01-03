@@ -50,5 +50,5 @@ spring:
 
 twilio:
   account-sid: ACf9c9ecd8f479de749505f7e619048057
-  auth-token: cd86a3491e8848bdf7756c303a9c2a7e
+  auth-token: f9c18ed6dad1ed7dde82a392290fbf4e
   from-number: "+17653905035"
