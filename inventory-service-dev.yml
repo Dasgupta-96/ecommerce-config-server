@@ -1,2 +1,3 @@
 my:
-variable: dev-inventory
+  variable: dev-inventory
+
