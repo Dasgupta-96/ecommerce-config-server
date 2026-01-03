@@ -10,3 +10,6 @@ kafka:
     product-topic: product-topic
     product-details-topic: product-details-topic
     sms: sms-notific-topic
+
+my:
+variable: default-inventory
